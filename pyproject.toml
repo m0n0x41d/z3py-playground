@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 jupyterlab = "^4.2.1"
+z3-solver = "^4.13.0.0"
 
 
 [build-system]
