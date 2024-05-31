@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "z3py-playground"
+version = "0.1.0"
+description = "Few Jupyter notebooks demonstrating the usage of the Z3 theorem prover."
+authors = ["Ivan Zakutnii <zakutnii.ivan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
